@@ -1,18 +1,43 @@
 .letter-list {
   list-style: none; 
   text-align: center; 
+  padding-top: 20px; 
+  margin-top: 20px; 
+
+  
 }
 
 .letter-list li {
   display: inline-block; 
+  border-top: 1px solid transparent;  
 }
 
 .btn-circle {
+  /* position: absolute;  */
   width: 30px;
   height: 30px;
   text-align: center;
   padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px;
+  line-height: 3px;
+  border-radius: 50%;
+  font-size: 13.6px;
+  background-color: #4577BD;
+  color: #ffffff;
+  margin: 5px 7px 0 0;
+  
+}
+
+.btn-circle:hover {
+  background-color: #4577BD; 
+  color: #ffffff;
+  width: 35px; 
+  height: 35px; 
+  border-top: 1px solid transparent; 
+}
+
+.btn-circle::after {
+  display: block; 
+  height: 0; 
+  overflow: hidden; 
+  visibility: hidden; 
 }
