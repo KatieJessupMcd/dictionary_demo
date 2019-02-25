@@ -1,0 +1,8 @@
+.letter-list {
+  list-style: none; 
+  text-align: center; 
+}
+
+.letter-list li {
+  display: inline-block; 
+}
