@@ -32,7 +32,11 @@ class LetterList extends Component {
       'Y',
       'Z'
     ];
-    let letter = letters.map(ltr => <li>{ltr}</li>);
+    let letter = letters.map(ltr => (
+      <button type="button" className="btn btn-default btn-circle">
+        {ltr}
+      </button>
+    ));
     return (
       <div>
         <ol className="letter-list">
